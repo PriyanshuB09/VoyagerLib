@@ -14,7 +14,7 @@
 
   "javaDependencies": [
     {
-      "groupId": "com.team4188.voyager",
+      "groupId": "com.team4188",
       "artifactId": "voyager",
       "version": "26.1.0"
     }

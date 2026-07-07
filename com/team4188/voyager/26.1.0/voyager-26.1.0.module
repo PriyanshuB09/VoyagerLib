@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.team4188.voyager",
+    "group": "com.team4188",
     "module": "voyager",
     "version": "26.1.0",
     "attributes": {

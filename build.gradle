@@ -11,7 +11,7 @@ java {
 }
 
 // ===== PROJECT METADATA =====
-group = 'com.team4188.voyager'
+group = 'com.team4188'
 version = '26.1.0'
 
 // ===== DEPENDENCIES =====
@@ -32,7 +32,7 @@ publishing {
         mavenJava(MavenPublication) {
             from components.java
 
-            groupId = 'com.team4188.voyager'
+            groupId = 'com.team4188'
             artifactId = 'voyager'
             version = '26.1.0'
         }
