@@ -7,10 +7,10 @@
   "uuid": "39cbd4d8-c6ba-4e5d-b7a0-ec4b98073131",
 
   "mavenUrls": [
-    "https://github.com/PriyanshuB09/VoyagerLib"
+    "https://priyanshub09.github.io/VoyagerLib/"
   ],
 
-  "jsonUrl": "https://raw.githubusercontent.com/PriyanshuB09/VoyagerLib/refs/heads/main/VoyagerLib.json",
+  "jsonUrl": "https://priyanshub09.github.io/VoyagerLib/VoyagerLib.json",
 
   "javaDependencies": [
     {
