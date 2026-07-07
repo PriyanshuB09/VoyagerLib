@@ -1,0 +1,37 @@
+{
+  "fileName": "VoyagerLib.json",
+  "name": "VoyagerLib",
+  "version": "26.1.0",
+  "frcYear": "2026",
+
+  "uuid": "60632fbd-4d2a-4e73-90ad-dde201f27c48",
+
+  "mavenUrls": [
+    "https://github.com/PriyanshuB09/VoyagerLib"
+  ],
+
+  "jsonUrl": "https://PriyanshuB09.github.io/PathBuilderLib/pathbuilder.json",
+
+  "javaDependencies": [
+    {
+      "groupId": "com.csplib.pathbuilder",
+      "artifactId": "pathbuilder",
+      "version": "2.2.1"
+    }
+  ],
+
+  "dependencies": [
+    {
+      "uuid": "1b42324f-17c6-4875-8e77-1c312bc8c786"
+    },
+    {
+      "uuid": "d820cc26-74e3-11ec-90d6-0242ac120003"
+    },
+    {
+      "uuid": "111e20f7-815e-48f8-9dd6-e675ce75b266"
+    }
+  ],
+
+  "jniDependencies": [],
+  "cppDependencies": []
+}

@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'edu.wpi.first.GradleRIO' version '2026.2.1'
+    id 'maven-publish'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+// ===== PROJECT METADATA =====
+group = 'com.team4188.voyager'
+version = '26.1.0'
+
+// ===== DEPENDENCIES =====
+dependencies {
+    // WPILib
+    implementation wpi.java.deps.wpilib()
+    implementation wpi.java.vendor.java()
+}
+
+// ===== OPTIONAL: SOURCES JAR (nice for users) =====
+java {
+    withSourcesJar()
+}
+
+// ===== PUBLISHING =====
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+
+            groupId = 'com.team4188.voyager'
+            artifactId = 'voyager'
+            version = '26.1.0'
+        }
+    }
+
+    repositories {
+        maven {
+            // LOCAL TEST REPO (change later to GitHub Pages)
+            name = "localRepo"
+            url = uri("${buildDir}/repos")
+        }
+    }
+}
